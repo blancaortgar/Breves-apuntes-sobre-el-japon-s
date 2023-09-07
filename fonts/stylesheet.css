@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url('ZenMaruGothic-Black.eot');
+    src: local('Zen Maru Gothic Black'), local('ZenMaruGothic-Black'),
+        url('ZenMaruGothic-Black.eot?#iefix') format('embedded-opentype'),
+        url('ZenMaruGothic-Black.woff2') format('woff2'),
+        url('ZenMaruGothic-Black.woff') format('woff'),
+        url('ZenMaruGothic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url('ZenMaruGothic-Bold.eot');
+    src: local('Zen Maru Gothic Bold'), local('ZenMaruGothic-Bold'),
+        url('ZenMaruGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ZenMaruGothic-Bold.woff2') format('woff2'),
+        url('ZenMaruGothic-Bold.woff') format('woff'),
+        url('ZenMaruGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url('ZenMaruGothic-Light.eot');
+    src: local('Zen Maru Gothic Light'), local('ZenMaruGothic-Light'),
+        url('ZenMaruGothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('ZenMaruGothic-Light.woff2') format('woff2'),
+        url('ZenMaruGothic-Light.woff') format('woff'),
+        url('ZenMaruGothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url('ZenMaruGothic-Medium.eot');
+    src: local('Zen Maru Gothic Medium'), local('ZenMaruGothic-Medium'),
+        url('ZenMaruGothic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ZenMaruGothic-Medium.woff2') format('woff2'),
+        url('ZenMaruGothic-Medium.woff') format('woff'),
+        url('ZenMaruGothic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url('ZenMaruGothic-Regular.eot');
+    src: local('Zen Maru Gothic Regular'), local('ZenMaruGothic-Regular'),
+        url('ZenMaruGothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ZenMaruGothic-Regular.woff2') format('woff2'),
+        url('ZenMaruGothic-Regular.woff') format('woff'),
+        url('ZenMaruGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
