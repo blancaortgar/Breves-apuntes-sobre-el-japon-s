@@ -1,0 +1,164 @@
+@font-face {
+    font-family:"Zen Maru Gothic";
+    src: url(#);
+}
+*{
+    font-family:"Zen Maru Gothic", sans-serif;
+
+}
+.row-cabecera {
+    background-color:#b3b3ff;
+    padding: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.column {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.column p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
+#characters{
+    padding: 55px;
+    
+}
+#panel-1{
+    background-color: #d4d4ff;
+    padding: 10px;
+    padding-top: 0px;
+}
+.panel-header{
+    font-weight:bold;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+
+}
+button{
+    font-weight: bolder !important;
+    color: black !important;
+    
+}
+p{
+    text-align: justify;
+}
+.img-fluid{
+    max-width: 450px;
+    display: block; /* Hacer que la imagen sea un bloque */
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 5px;
+}
+.ejemplo{
+    text-align: center;
+    font-size:medium;
+}
+.hiragana {
+    color: red;
+    font-weight: 900;
+}
+.katakana {
+    color: green;
+    font-weight: 900;
+}
+.kanji {
+    color: blue;
+    font-weight: 900;
+}
+.ejemplo_frase {
+    background-color: #d4d4ff7a;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.card-body {
+    padding: 30px;
+}
+.texto_movido {
+    text-indent: 30px;
+}
+.tarjeta {
+    background-color:#d4d4ff7a;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.nota{
+    background-color: rgba(238, 58, 58, 0.315);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.subrayado{
+    background-color: #b3b3ff;
+    
+}
+#texto_interactivo{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#navegador {
+    background:  #8080ff;
+    justify-content: center;
+    font-weight: 900;
+    padding: 5px;
+
+}
+a {
+    color: black !important;
+}
+.verbo{
+    max-width: 200px;
+}
+#verbos{
+    display: flex;
+    justify-content: space-around !important;
+    padding: 10px;
+}
+#metricas{
+    padding: 30px;
+}
+#texto_metrica{
+    padding: 10px;
+}
+.titulo{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.grafica{
+    max-width: 300px;
+}
+.analisis{
+    padding: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apuntes sobre el uso del japonés</title>
+    <meta name="description" content="web sobre el idioma japonés en diferentes ámbitos"/>
+    <meta name="author" content="Blanca Ortega" />
+    <meta name="keywords" content="keywords" />
+    <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estilo_tfm.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script> 
+    function subrayado(){
+      $('#particula input[type=checkbox]').each(function () {
+          var colorMark;
+          var allParas = document.getElementsByName(this.value);
+          if (this.value == "wa" && this.checked) colorMark = "lightblue";
+          else if (this.value == "ga" && this.checked) colorMark = "pink";
+          else if (this.value == "ni" && this.checked) colorMark = "#ffff66";
+          else if (this.value == "de" && this.checked) colorMark = "lightgreen";
+          else if (this.value == "no" && this.checked) colorMark = "#FFD580";
+          else if (this.value == "wo" && this.checked) colorMark = "#CBC3E3";
+          else if (this.value == "he" && this.checked) colorMark = "#b3ffff";
+          else {
+              colorMark = "none";
+          }
+          for (var i = 0; i < allParas.length; i++)
+              allParas[i].setAttribute("style", "background-color:" + colorMark + ";");
+  
+      });
+    }
+      </script>
+
+  </head>
+  <body>
+      <div class="row-cabecera">
+        <h2 align="center">Breves apuntes sobre el idioma japonés</h2>
+        <h4 align="center">日本語の簡単なメモ</h4>
+        <h6><span><i class="bi bi-code-slash"></i></span> Enlace a Github </a>
+        </h6>
+      </div>
+      <div class="container-fluid" id="navegador">
+        <div class="row">
+            <div class="col-md-3 text-center">
+              <a href="tfm_index.html">Inicio</a>
+            </div>
+            <div class="col-md-3  text-center">
+                <a href="tfm_faq.html">FAQ</a>
+            </div>
+            <div class="col-md-3 text-center">
+              <a href="tfm_texto1.html">Texto interactivo</a>
+            </div>
+            <div class="col-md-3 text-center">
+                <a href="tfm_metricas.html">Estadísticas del japonés</a>
+            </div>
+        </div>
+    </div>
+      <div class="col-md-6-center" id="characters">
+      <div class="panel" id="panel-1">
+        <div class="panel-header" id="panel-header-1">Texto interactivo: partículas del japonés
+            <div id="particula" class="checkbox">
+                <label><input  onclick="subrayado()" type="checkbox" value="wa">は (wa)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="ga">が (ga)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="ni">に(ni)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="de">で(de)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="no">の(no)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="wo"> を(wo)</label>
+                <label><input  onclick="subrayado()" type="checkbox" value="he"> へ(e)</label>
+            </div>
+            <div class="card" id="texto_interactivo">
+                <h4>Texto: 私が欲しい物</h4>
+                <br>
+                <p>いろいろな　人<l name="ni">に</l>　いちばん　欲しい　もの<l name="wo">を</l>　聞きました。</p>
+                <p>①「時間です」。私<l name="wa">は</l>　会社<l name="he">へ</l>　行って、働いて、うち<l name="he">へ</l>　帰ったら、一日<l name="ga">が</l> 終わります。一日<l name="ga">が</l>　短いです。一日　36時間ぐらい　欲しいです。（女 <l name="no">の</l>　人、25歳）</p>
+                <p>②「僕<l name="no">の</l>　銀行」<l name="ga">が</l>　欲しいです。銀行<l name="wo">を</l>　持って　いたら、好きな　とき、お金<l name="wo">を</l>　下して、好きな　物<l name="wo">を</l>　買う　こと<l name="ga">が</l>　できます。他<l name="ni">に</l>、 僕<l name="wa">は</l>　世界中<l name="ni">に</l>　旅行することも　できます。（男　<l name="no">の</l>　子、10歳）</p>
+                <p>③「若く　なる　薬」<l name="ga">が</l>　欲しいです。私<l name="wa">は</l> 若い　時、あまり　勉強しませんでした。　もう　一度　若く　なったら、勉強して、いい　仕事<l name="wo">を</l>　したいです。（女<l name="no">の</l>人、60歳）</p>
+                <p>④「ユーモア」<l name="ga">が</l>　欲しいです。私<l name="no">の</l>妻<l name="wa">は</l>　私<l name="ga">が</l>　話を　すると、「あしたも　忙しいでしょう？　早く　寝て　ください。」と　言います。子供<l name="wa">は</l>　「お父さん、もう　三回ぐらい　聞いたよ」と　言います。私<l name="wa">は</l>　おもしろい　人<l name="ni">に</l>　なりたいです。　（男<l name="no">の</l>人、43歳）</p>
+                <p>⑤「わたし」<l name="ga">が</l>　もう　一人　欲しいです。わたし　<l name="wa">は</l>　毎日　学校<l name="de">で</l>　勉強しなければ　なりません。　「わたし」<l name="ga">が</l>　二人　いたら、一人<l name="ga">が</l>　学校<l name="de">で</l>　勉強して　いる　とき、もう　一人<l name="no">の</l>　「わたし」<l name="wa">は</l>　好きな　こと<l name="ga">が</l>　できます。私<l name="wa">は</l>　二人<l name="ni">に</l>　なりたいです。
+                </p>
+            </div>
+
+        </div>
+       </div>
+    </div>
+
+      
+
+</body>
+</html>
